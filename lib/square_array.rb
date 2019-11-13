@@ -3,7 +3,8 @@
 def square_array(array) 
   counter = 0
   while counter < array.length do
-    print numbers**numbers
+    array[counter]**numbers
+    print
     counter += 1
   end
 end
