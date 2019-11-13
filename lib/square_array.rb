@@ -6,7 +6,7 @@ def square_array(array)
   while counter < array.length do
     squared_numbers << array[counter]**
     counter += 1
-  return squared_numbers
   end
+  return squared_numbers
 end
 
